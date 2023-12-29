@@ -1,0 +1,46 @@
+.linki {
+  margin-top: 100px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+
+  height: 350px;
+  background-color: rgb(239, 239, 239);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+
+  display: flex;
+  justify-content: space-between;
+}
+.flexbox-linki {
+  background-color: aquamarine;
+  font-family: Roboto;
+  font-size: 15px;
+  width: 75%;
+  height: 150px;
+
+  padding-top: 40px;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-bottom: 30px;
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.ramka-linki{
+  background-color: blue;
+  border-radius: 15px;
+  flex: 1;
+  margin: 0 10px;
+}
+.link-rzad1 {
+  flex: 1;
+  margin: 0;
+  padding: 0;
+}
+.linki-rzad2 {
+  margin-left: 15px;
+  margin: 0;
+  padding: 0;
+  flex: 1;
+}

@@ -1,0 +1,84 @@
+.zawartosc {
+  display: grid;
+  width: 100%;
+  height: 1000px;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto; /* Center horizontally */
+}
+
+.ramka {
+  border-radius: 15px;
+  flex: 1;
+  height: 300px;
+  margin: 0 10px; /* Odstęp między ramkami */
+}
+
+.zdjecie-produktu {
+  width: 100%;
+  height: 75%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  border-radius: 15%;
+  object-fit: contain;
+  cursor: pointer;
+}
+.zdjecie-produktu:hover {
+  opacity: 0.8;
+}
+.zdjecie-produktu:active {
+  opacity: 0.3;
+}
+.przedmiot-nazwa {
+  margin: 10px 0 0;
+  padding: 0;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.przedmiot-cena {
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 15px;
+  text-align: center;
+  color: rgb(58, 58, 58);
+  margin: 0;
+  padding: 0;
+}
+.ramka-przyciski {
+  display: flex;
+  justify-content: center;
+  height: 45px;
+}
+.przycisk-buynow, .przycisk-addtocart {
+  margin-right: 5%;
+
+}
+.przycisk-buynow,
+.przycisk-addtocart {
+  cursor: pointer;
+  height: 100%;
+  font-family: Roboto;
+  margin-top: 20px;
+  font-size: 13px;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  background-color: black;
+  padding: 8px;
+}
+
+.przycisk-buynow:hover,
+.przycisk-addtocart:hover {
+  background-color: rgba(0, 0, 0, 0.676);
+}
+
+.przycisk-buynow:active,
+.przycisk-addtocart:active {
+  background-color: rgba(0, 0, 0, 0.299);
+}

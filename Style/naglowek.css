@@ -1,0 +1,59 @@
+.naglowek {
+  z-index: 100;
+  background-color: rgb(239, 239, 239);
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  position: fixed;
+  display: flex;
+  height: 50px;
+
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+}
+.sekcja-lewo {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.przycisk-menu {
+  align-items: center;
+  justify-content: center;
+  margin-top: -3px;
+  border: none;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+.przycisk-menu:hover {
+  opacity: 0.8;
+}
+.pas1, .pas2, .pas3 {
+  border: none;
+  border-radius: 20px;
+  height: 1px;
+  width: 25px;
+  background-color: black;
+  margin-bottom: 7px;
+}
+.sekcja-srodek {
+  display: flex;
+  flex: 1;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  vertical-align: center;
+  flex: 1;
+}
+.logo {
+  color: black;
+  font-family: Roboto;
+  cursor: pointer;
+}
+.sekcja-prawo {
+  margin-right: 20px;
+}
+.koszyk {
+  cursor: pointer;
+  color: black;
+  font-family: Roboto;
+  margin-left: -30px;
+}
